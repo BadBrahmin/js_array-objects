@@ -14,9 +14,9 @@ a = 5; //5
 b = "def"; //"def"
 
 // Value of arr & arrCopy
-var arr = [1]; 
+var arr = [1];
 var arrCopy = arr;
-arr.push(2); 
+arr.push(2);
 
 //arr = [1, 2]
 //arrCopy = [1, 2]
@@ -64,8 +64,8 @@ var personObj1 = {
   age: 30
 };
 var personObj2 = personDetails(personObj1);
-console.log(personObj1); // -> ?
-console.log(personObj2); // -> ?
+console.log(personObj1); // -> {name: "Alex", age: 25} (person.age overrides the age in personObj1)
+console.log(personObj2); // -> {name: "John", age: 50} (I'm confused about this)
 
 // Guess the output
 var oldArray = [];
@@ -74,7 +74,7 @@ object.newArray = oldArray;
 oldArray.push(10);
 console.log(object.newArray === oldArray);
 
-//true
+true
 
 // Guess the output
 var a = 5;
